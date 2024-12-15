@@ -1,4 +1,4 @@
-#time complexity O(nlogn)
+#time complexity O(nlog n)
 #space complexity O(n)
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:

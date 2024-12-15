@@ -32,8 +32,7 @@ class Solution:
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
         m = len(heights)
         n = len(heights[0])
-        self.pacific = [[False] * n for _ in range(m)]
-        self.atlantic = [[False] * n for _ in range(m)]
+        
         ans = []
 
         # Iniciar a DFS para as bordas que tocam os oceanos

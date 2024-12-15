@@ -29,3 +29,6 @@ class Solution:
                         initPoint += 1
 
         return res
+    
+
+#

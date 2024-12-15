@@ -1,3 +1,7 @@
+#the idea behind this approach is to itearate over the array and for each number we have to think if the number is the beggining of a sequence or not, 
+# to confirm this we have to look if the number-1 is in the array, if so, its not the beggining of a sequence, otherwise, can be the beggining of a sequence
+# and for each number that came after this number we have to look if this number is in the array, and if so, we increment our cont variable.
+
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         nums = sets(nums)

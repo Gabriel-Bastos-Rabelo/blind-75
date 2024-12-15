@@ -1,8 +1,24 @@
-preorder = [3,9,20,15,7]
-inorder = [9,3,15,20,7]
 
-print(preorder[1:1+1])
-print(inorder[:1])
-print(inorder[1+1:])
+def isAnagram(stringA: str, stringB: str) -> bool:
 
-a = 'a'
+    if len(stringA) != len(stringB):
+        return False
+    freq = {}
+    for c in stringA:
+        freq[c] = freq.get(c, 0) + 1
+
+
+    for c in stringB:
+        if c not in freq:
+            return False
+        
+        else:
+            freq[c] -= 1
+            if freq[c] < 0:
+                return False
+            
+
+    return True
+
+
+    

@@ -43,9 +43,11 @@ def alienOrder(words):
 
 
 print(alienOrder([
-  "z",
-  "x",
-  "z"
+  "wrt",
+  "wrf",
+  "er",
+  "ett",
+  "rftt"
 ]
 ))
 

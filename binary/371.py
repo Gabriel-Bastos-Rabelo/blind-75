@@ -15,4 +15,5 @@ def getSum(a: int, b: int) -> int:
     return a if a <= MAX else ~(a ^ MASK)
 
 
+print(5 ^ 7)
 print(getSum(39, 59))
